@@ -1,0 +1,70 @@
+.form {
+  padding: 3px;
+  padding-bottom: 15px;
+}
+
+.gridPokemon {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3);
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+}
+
+.marginTopGrid {
+  margin-top: 2rem;
+}
+
+.bordersDivGrid {
+  border-style: solid black;
+}
+
+.itemGridEncabezado {
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.itemPokemonGrid {
+  border: 2px solid black;
+}
+
+.alignText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.encabezadoFiltro {
+  width: 100%;
+  background-color: cimson;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.gridBody {
+  display: flex;
+  flex-direction: column;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+.widhtIconButton {
+  width: 10rem;
+  height: 10rem;
+}
+
+.dialogPokemon {
+  display: flex;
+  flex-direction: column;
+}
+
+.fontSizePokemon {
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
